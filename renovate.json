@@ -1,26 +1,29 @@
 {
-    "extends": ["config:best-practices"],
-    "packageRules": [
-        {
-            "matchPackagePatterns": ["*"],
-            "matchUpdateTypes": ["patch"],
-            "groupName": "Patch Dependencies"
-        },
-        {
-            "matchPackagePatterns": ["*"],
-            "matchUpdateTypes": ["minor"],
-            "groupName": "Minor Dependencies"
-        },
-        {
-            "matchPackagePatterns": ["*"],
-            "matchUpdateTypes": ["major"],
-            "groupName": "Major Dependencies",
-            "enabled": false
-        }
-    ],
-    "schedule": ["before 8am on Monday"],
-    "vulnerabilityAlerts": {
-        "groupName": "Vulnerable Dependencies"
+  "extends": ["config:best-practices"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "Patch Dependencies",
+      "automerge": true
     },
-    "osvVulnerabilityAlerts": true
+    {
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["minor"],
+      "groupName": "Minor Dependencies",
+      "automerge": true
+    },
+    {
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "Major Dependencies",
+      "enabled": false
+    }
+  ],
+  "schedule": ["before 8am on Monday"],
+  "vulnerabilityAlerts": {
+    "groupName": "Vulnerable Dependencies",
+    "automerge": true
+  },
+  "osvVulnerabilityAlerts": true
 }
