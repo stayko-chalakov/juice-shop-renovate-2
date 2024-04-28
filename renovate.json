@@ -4,14 +4,12 @@
     {
       "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["patch"],
-      "groupName": "Patch Dependencies",
-      "automerge": true
+      "groupName": "Patch Dependencies"
     },
     {
       "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["minor"],
-      "groupName": "Minor Dependencies",
-      "automerge": true
+      "groupName": "Minor Dependencies"
     },
     {
       "matchPackagePatterns": ["*"],
@@ -20,10 +18,11 @@
       "enabled": false
     }
   ],
+  "automerge": true,
+  "autoApprove": true,
   "schedule": ["before 8am on Monday"],
   "vulnerabilityAlerts": {
-    "groupName": "Vulnerable Dependencies",
-    "automerge": true
+    "groupName": "Vulnerable Dependencies"
   },
   "osvVulnerabilityAlerts": true
 }
