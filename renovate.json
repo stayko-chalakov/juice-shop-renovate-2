@@ -1,0 +1,26 @@
+{
+    "extends": ["config:best-practices"],
+    "packageRules": [
+        {
+            "matchPackagePatterns": ["*"],
+            "matchUpdateTypes": ["patch"],
+            "groupName": "Patch Dependencies"
+        },
+        {
+            "matchPackagePatterns": ["*"],
+            "matchUpdateTypes": ["minor"],
+            "groupName": "Minor Dependencies"
+        },
+        {
+            "matchPackagePatterns": ["*"],
+            "matchUpdateTypes": ["major"],
+            "groupName": "Major Dependencies",
+            "enabled": false
+        }
+    ],
+    "schedule": ["before 8am on Monday"],
+    "vulnerabilityAlerts": {
+        "groupName": "Vulnerable Dependencies"
+    },
+    "osvVulnerabilityAlerts": true
+}
