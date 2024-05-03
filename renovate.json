@@ -1,28 +1,9 @@
 {
   "extends": ["config:best-practices"],
-  "packageRules": [
-    {
-      "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["patch"],
-      "groupName": "Patch Dependencies"
-    },
-    {
-      "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["minor"],
-      "groupName": "Minor Dependencies"
-    },
-    {
-      "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["major"],
-      "groupName": "Major Dependencies",
-      "enabled": false
-    }
-  ],
   "automerge": true,
   "autoApprove": true,
-  "schedule": ["before 8am on Monday"],
+  "schedule": ["every day"],
   "vulnerabilityAlerts": {
     "groupName": "Vulnerable Dependencies"
-  },
-  "osvVulnerabilityAlerts": true
+  }
 }
