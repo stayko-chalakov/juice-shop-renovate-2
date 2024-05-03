@@ -2,7 +2,7 @@
   "extends": ["config:best-practices"],
   "automerge": true,
   "autoApprove": true,
-  "schedule": ["every 6pm"],
+  "schedule": ["before 6pm"],
   "vulnerabilityAlerts": {
     "groupName": "Vulnerable Dependencies"
   }
