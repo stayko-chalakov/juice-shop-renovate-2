@@ -1,4 +1,4 @@
-FROM node:20-buster as installer
+FROM node:20-buster@sha256:b0e74f43a17f1bde2408b9e714fa2b2b70a20c95e1711cfb4c1a242a04fac6b1 as installer
 COPY . /juice-shop
 WORKDIR /juice-shop
 RUN npm i -g typescript ts-node
@@ -20,7 +20,7 @@ RUN npm install -g @cyclonedx/cyclonedx-npm@$CYCLONEDX_NPM_VERSION
 RUN npm run sbom
 
 # workaround for libxmljs startup error
-FROM node:20-buster as libxmljs-builder
+FROM node:20-buster@sha256:b0e74f43a17f1bde2408b9e714fa2b2b70a20c95e1711cfb4c1a242a04fac6b1 as libxmljs-builder
 WORKDIR /juice-shop
 RUN apt-get update && apt-get install -y build-essential python3
 COPY --from=installer /juice-shop/node_modules ./node_modules
@@ -28,7 +28,7 @@ RUN rm -rf node_modules/libxmljs2/build && \
   cd node_modules/libxmljs2 && \
   npm run build
 
-FROM gcr.io/distroless/nodejs20-debian11
+FROM gcr.io/distroless/nodejs20-debian11@sha256:694ad1f73f0c65f3c62c0ebbcd9ac4188985f5f706b7900af60e8e0915c88b7e
 ARG BUILD_DATE
 ARG VCS_REF
 LABEL maintainer="Bjoern Kimminich <bjoern.kimminich@owasp.org>" \
