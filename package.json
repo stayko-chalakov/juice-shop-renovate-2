@@ -215,7 +215,7 @@
     "@types/mocha": "8.2.3",
     "@types/morgan": "1.9.9",
     "@types/multer": "1.4.11",
-    "@types/node": "17.0.45",
+    "@types/node": "20.12.12",
     "@types/on-finished": "2.3.4",
     "@types/pdfkit": "0.13.4",
     "@types/portscanner": "2.1.4",
