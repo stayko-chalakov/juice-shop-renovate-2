@@ -28,7 +28,7 @@ RUN rm -rf node_modules/libxmljs2/build && \
   cd node_modules/libxmljs2 && \
   npm run build
 
-FROM gcr.io/distroless/nodejs20-debian11@sha256:694ad1f73f0c65f3c62c0ebbcd9ac4188985f5f706b7900af60e8e0915c88b7e
+FROM gcr.io/distroless/nodejs20-debian11@sha256:739c414918448bee2bbc11ae1406ed003484bef0afba227f60321ea31db69592
 ARG BUILD_DATE
 ARG VCS_REF
 LABEL maintainer="Bjoern Kimminich <bjoern.kimminich@owasp.org>" \
