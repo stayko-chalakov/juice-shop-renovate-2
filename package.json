@@ -241,7 +241,7 @@
     "eslint": "9.2.0",
     "eslint-config-love": "43.1.0",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-n": "14.0.0",
+    "eslint-plugin-n": "17.7.0",
     "eslint-plugin-promise": "6.1.1",
     "frisby": "https://github.com/bkimminich/frisby.git",
     "grunt-cli": "1.4.3",
