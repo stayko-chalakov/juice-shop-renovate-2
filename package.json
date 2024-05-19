@@ -247,7 +247,7 @@
     "grunt-cli": "1.4.3",
     "http-server": "14.1.1",
     "jasmine": "5.1.0",
-    "jasmine-core": "3.99.1",
+    "jasmine-core": "5.1.2",
     "jasmine-reporters": "2.5.2",
     "jest": "26.6.3",
     "mocha": "8.4.0",
