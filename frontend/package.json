@@ -38,7 +38,7 @@
     "@nguniversal/express-engine": "16.2.0",
     "@ngx-translate/core": "^15.0.0",
     "@ngx-translate/http-loader": "^6.0.0",
-    "@wagmi/core": "^0.10.0",
+    "@wagmi/core": "^2.0.0",
     "anuglar2-qrcode": "~2.0.3",
     "canvas-confetti": "^1.4.0",
     "codemirror": "^5.65.14",
