@@ -46,7 +46,7 @@
     "core-js": "^3.22.5",
     "ethers": "^6.0.0",
     "file-saver": "^2.0.2",
-    "flag-icons": "^6.9.2",
+    "flag-icons": "^7.0.0",
     "font-mfizz": "^2.4.1",
     "jwt-decode": "^2.2.0",
     "lodash-es": "^4.17.21",
