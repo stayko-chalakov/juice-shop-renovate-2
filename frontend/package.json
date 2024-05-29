@@ -59,7 +59,7 @@
     "ngx-highlightjs": "^11.0.0",
     "ngx-spinner": "^17.0.0",
     "ngx-text-diff": "^0.6.0",
-    "ngx-window-token": "^6.0.0",
+    "ngx-window-token": "^7.0.0",
     "rxjs": "6.6.7",
     "sass": "^1.32.2",
     "snarkdown": "^1.2.2",
