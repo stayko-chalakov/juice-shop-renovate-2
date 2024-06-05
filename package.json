@@ -237,7 +237,7 @@
     "chai": "5.1.1",
     "chai-as-promised": "7.1.2",
     "cross-spawn": "7.0.3",
-    "cypress": "13.10.0",
+    "cypress": "13.11.0",
     "eslint": "9.2.0",
     "eslint-config-love": "52.0.0",
     "eslint-plugin-import": "2.29.1",
