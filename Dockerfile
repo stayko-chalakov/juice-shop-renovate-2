@@ -1,4 +1,4 @@
-FROM node:20-buster@sha256:8576a77ba8e731e75903759be17142eef992fb608f37d7bccfa825fbfc0a794d as installer
+FROM node:20-buster@sha256:c1a1099bea42bfa32e179d8abead7f66adc413304204aeb636014db1507a5312 as installer
 COPY . /juice-shop
 WORKDIR /juice-shop
 RUN npm i -g typescript ts-node
@@ -20,7 +20,7 @@ RUN npm install -g @cyclonedx/cyclonedx-npm@$CYCLONEDX_NPM_VERSION
 RUN npm run sbom
 
 # workaround for libxmljs startup error
-FROM node:20-buster@sha256:8576a77ba8e731e75903759be17142eef992fb608f37d7bccfa825fbfc0a794d as libxmljs-builder
+FROM node:20-buster@sha256:c1a1099bea42bfa32e179d8abead7f66adc413304204aeb636014db1507a5312 as libxmljs-builder
 WORKDIR /juice-shop
 RUN apt-get update && apt-get install -y build-essential python3
 COPY --from=installer /juice-shop/node_modules ./node_modules
