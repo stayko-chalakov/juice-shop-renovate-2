@@ -84,7 +84,7 @@
     "@typescript-eslint/eslint-plugin-tslint": "7.0.2",
     "codelyzer": "6.0.2",
     "eslint": "9.5.0",
-    "eslint-config-love": "52.0.0",
+    "eslint-config-love": "53.0.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-n": "17.9.0",
     "eslint-plugin-promise": "6.2.0",
