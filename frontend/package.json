@@ -101,7 +101,7 @@
     "karma-jasmine-html-reporter": "2.1.0",
     "stylelint": "16.6.1",
     "stylelint-config-sass-guidelines": "11.1.0",
-    "stylelint-scss": "6.4.0",
+    "stylelint-scss": "6.4.1",
     "ts-node": "10.9.2"
   }
 }
