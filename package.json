@@ -239,7 +239,7 @@
     "cross-spawn": "7.0.3",
     "cypress": "13.13.0",
     "eslint": "9.2.0",
-    "eslint-config-love": "54.0.0",
+    "eslint-config-love": "56.0.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-n": "17.9.0",
     "eslint-plugin-promise": "6.4.0",
