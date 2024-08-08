@@ -244,7 +244,7 @@
     "eslint-plugin-n": "17.9.0",
     "eslint-plugin-promise": "6.6.0",
     "frisby": "https://github.com/bkimminich/frisby.git",
-    "grunt-cli": "1.4.3",
+    "grunt-cli": "1.5.0",
     "http-server": "14.1.1",
     "jasmine": "5.1.0",
     "jasmine-core": "5.1.2",
