@@ -91,7 +91,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-jsdoc": "50.0.0",
     "eslint-plugin-standard": "5.0.0",
-    "jasmine": "5.1.0",
+    "jasmine": "5.2.0",
     "jasmine-core": "5.2.0",
     "jasmine-spec-reporter": "7.0.0",
     "karma": "6.4.4",
