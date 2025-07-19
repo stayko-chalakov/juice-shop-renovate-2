@@ -65,7 +65,7 @@
     "snarkdown": "^2.0.0",
     "socket.io-client": "^4.0.0",
     "solidity-browser-compiler": "^1.1.0",
-    "typescript": "~5.5.0",
+    "typescript": "~5.8.0",
     "zone.js": "~0.14.0",
     "zustand": "4.5.4"
   },
