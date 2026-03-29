@@ -222,7 +222,7 @@
     "@types/pug": "2.0.10",
     "@types/request": "2.48.13",
     "@types/sanitize-html": "2.11.0",
-    "@types/semver": "7.5.8",
+    "@types/semver": "7.7.1",
     "@types/sequelize": "4.28.20",
     "@types/serve-index": "1.9.4",
     "@types/sinon": "17.0.3",
