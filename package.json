@@ -225,7 +225,7 @@
     "@types/semver": "7.8.0",
     "@types/sequelize": "6.12.0",
     "@types/serve-index": "1.9.4",
-    "@types/sinon": "17.0.3",
+    "@types/sinon": "17.0.4",
     "@types/sinon-chai": "3.2.12",
     "@types/socket.io": "3.0.2",
     "@types/socket.io-client": "3.0.0",
